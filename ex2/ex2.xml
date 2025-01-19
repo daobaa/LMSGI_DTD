@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "ex2.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="a1">
+            <nom>Tom Hiddleston</nom>
+            <edat>44</edat>
+        </actor>
+        <actor id="a2">
+            <nom>Eduard Fernandez</nom>
+        </actor>
+        <actor id="a3">
+            <nom>Antonio Banderas</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="p1">
+            <titol idioma="Español">Madres Paralelas</titol>
+            <director>Pedro Almodovar</director>
+            <any>2021</any>
+            <actors>
+                <actor_ref ref="a1"/>
+                <actor_ref ref="a2"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p2">
+            <titol idioma="Catalán">Estiu 1993</titol>
+            <director>Carla Simon</director>
+            <any>2017</any>
+            <actors>
+                <actor_ref ref="a2"/>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p3">
+            <titol idioma="Inglés">1917</titol>
+            <director>Sam Mendes</director>
+            <any>2019</any>
+            <actors>
+                <actor_ref ref="a1"/>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="p1"/>
+        <recomanacio ref="p2"/>
+        <recomanacio ref="p3"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
